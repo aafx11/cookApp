@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/chat/chat",
+    "pages/404/404",
+    "pages/friendList/friendList",
+    "pages/articleList/articleList",
+    "pages/websiteList/websiteList",
+    "pages/me/me"
+  ],
+  "subPackages": [
+    {
+      "root": "subpages",
+      "pages": [
+        "news/news"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "聊天"
+      },
+      {
+        "pagePath": "pages/friendList/friendList",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/articleList/articleList",
+        "text": "ai资讯"
+      },
+      {
+        "pagePath": "pages/websiteList/websiteList",
+        "text": "ai免费体验"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

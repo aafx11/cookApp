@@ -1,0 +1,20 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+            "playground" : "custom",
+            "type" : "uni-app:app-ios"
+        },
+        {
+            "playground" : "custom",
+            "type" : "uni-app:app-android"
+        },
+	{
+		"mp-weixin" : 
+		{
+			"launchtype" : "local"
+		},
+		"type" : "uniCloud"
+	}
+    ]
+}
